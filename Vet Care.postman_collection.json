@@ -24,12 +24,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/v1/doctors",
-					"protocol": "http",
+					"raw": "https://adminvet.onrender.com/api/v1/doctors",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"adminvet",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -45,12 +46,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/v1/doctors/661e54a00355ce5b66af0505",
-					"protocol": "http",
+					"raw": "https://adminvet.onrender.com/api/v1/doctors/661e54a00355ce5b66af0505",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"adminvet",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -76,12 +78,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/v1/doctors",
-					"protocol": "http",
+					"raw": "https://adminvet.onrender.com/api/v1/doctors",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"adminvet",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -106,12 +109,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/v1/doctors/661e54740355ce5b66af04fd",
-					"protocol": "http",
+					"raw": "https://adminvet.onrender.com/api/v1/doctors/661e54740355ce5b66af04fd",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"adminvet",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"v1",
@@ -128,12 +132,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/api/v1/doctors/661e54740355ce5b66af04fd",
-					"protocol": "http",
+					"raw": "https://adminvet.onrender.com/api/v1/doctors/661e54740355ce5b66af04fd",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"adminvet",
+						"onrender",
+						"com"
 					],
-					"port": "3000",
 					"path": [
 						"api",
 						"v1",
