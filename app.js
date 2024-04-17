@@ -2,6 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const doctorRoutes = require('./routes/doctorRoutes');
+const clinicRoutes = require('./routes/clinicRoutes');
+const productRoutes = require('./routes/productRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -22,6 +24,8 @@ mongoose.connect('mongodb+srv://jackxdotedge:0xjI1WRHxgjo0HwT@cluster0.mpvqznv.m
 
 // Routes
 app.use('/api/v1/doctors/', doctorRoutes);
+app.use('/api/v1/clinics/', clinicRoutes);
+app.use('/api/v1/products/', productRoutes);
 
 // Start the server
 app.listen(PORT, () => {
