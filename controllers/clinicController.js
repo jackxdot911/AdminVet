@@ -3,8 +3,8 @@ const Clinic = require('../models/clinicModel');
 // Controller function to get all veterinary stores
 const getAllClinic = async (req, res) => {
   try {
-    const stores = await Clinic.find();
-    res.json(stores);
+    const clinics = await Clinic.find();
+    res.json(clinics);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }
