@@ -3,10 +3,15 @@ const mongoose = require('mongoose');
 const clinicSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true
+    required: true,
+    unique: true
   },
   location: String,
-  contact: String,
+  contact: {
+    type: String,
+    required: true,
+    unique: true
+  },
   services: [String], 
   createdAt: {
     type: Date,
