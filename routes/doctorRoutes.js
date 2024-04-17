@@ -9,4 +9,6 @@ router.put('/:id', doctorController.updateDoctor);
 
 router.get('/:id', doctorController.getDoctorById);
 
+router.get('/alive',doctorController.keepAlive);
+
 module.exports = router;

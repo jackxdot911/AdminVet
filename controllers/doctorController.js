@@ -80,6 +80,10 @@ const getDoctorById = async (req, res) => {
   }
 };
 
+const keepAlive = (req,res) => {
+  res.status(200).json({status : "working"});
+}
+
 
 module.exports = {
   getAllDoctors,
@@ -87,4 +91,5 @@ module.exports = {
   deleteDoctor,
   updateDoctor,
   getDoctorById,
+  keepAlive
 };
